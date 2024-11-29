@@ -1,5 +1,5 @@
 # my-sql
-
+---sql
 create table employee_07(
 employee_id number(10) primary key,
 employee_name varchar2(20),
