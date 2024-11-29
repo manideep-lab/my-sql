@@ -130,3 +130,12 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('New emlpoyee added:'||:NEW.employee_name);
 END;
  /
+-------------------------------------------------
+q) A function to return the current system date
+sql>
+create or replace function get_sysdate
+return date as
+begin
+  return get_sysdate;
+end get_sysdate;
+/
