@@ -122,4 +122,11 @@ BEGIN
   greet_user('jhon');
 END;
 /
-   
+-------------------------------------------------------
+CREATE OR REPLACE TRIGGER einsert
+AFTER INSERT ON employee_07
+FOR EACH ROW
+BEGIN
+  DBMS_OUTPUT.PUT_LINE('New emlpoyee added:'||:NEW.employee_name);
+END;
+ /
