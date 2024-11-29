@@ -121,5 +121,5 @@ Executing the procedure:
 BEGIN
   greet_user('jhon');
 END;
-
+/
    
